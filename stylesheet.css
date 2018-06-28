@@ -1,0 +1,101 @@
+/* {
+  border: 1px solid black;
+}*/
+
+#head-wrapper {
+  display: block;
+  height: auto;
+  width: auto;
+  font-family: 'Roboto', sans-serif;
+   color: rgb(151, 189, 93);
+  
+}
+
+#head-wrapper:hover {
+  color: red;
+}
+
+.welcome {
+  font-style: italic;
+
+}
+h1 {
+  display: block;
+  font-size: 32px;
+  color: rgb(151, 189, 93);
+  /*text-decoration: none;*/
+}
+
+h1:hover {
+  color: red;
+}
+
+ul li:hover {
+  color: red;
+}
+
+
+.facts {
+  background-color: black;
+  color: white;
+  margin-right: 60%;
+}
+.books{
+  margin-right: 60%;
+}
+
+#body { 
+  font-family: 'Markazi Text', serif;}
+
+#list {
+  display: flex;
+  padding: 1% 1% 1% 10%;
+  position: static;
+  margin-bottom: 50px;
+
+}
+
+
+.row {
+  display: flex;
+}
+
+.images {
+  flex: 25%;
+  padding: 30px;
+  margin-top: 100px;
+  display: flex;
+  border: 2px solid rgb(84, 75, 211);
+  border-radius: 15px;
+  background-color: rgb(225, 222, 238);
+  box-shadow: 5px 10px; 
+}
+
+.container-1 {
+  display: block;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  /*margin: 8px 0;*/
+  border: 2px solid rgb(84, 75, 211);
+  border-radius: 15px;
+  margin-left: 35%;
+  margin-right: 35%;
+  
+}
+
+#contact {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+
+}
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+@media(min-width:320px)
+}
